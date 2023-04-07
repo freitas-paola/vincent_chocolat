@@ -1,0 +1,87 @@
+body {
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.header {
+  background-color: #d28382;
+}
+
+#header .nav-link {
+  padding-left: 0.5rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #140c0c;
+}
+
+#menu-principal .nav-link.active {
+  color: #140c0c;
+  background-color: #f5e3e3;
+}
+
+.nav-link:hover {
+  color: #3d2323;
+}
+
+.section-title {
+  font-family: "Italiana", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-item img,
+.img-historia {
+  max-height: 50vh;
+  object-fit: cover;
+}
+
+#encomendas,
+#contato {
+  background-color: rgb(250, 241, 241, 0.5);
+}
+
+#encomendas i {
+  font-size: 1.5rem;
+  color: #d28382;
+}
+
+#menu .nav-pills .nav-link.active,
+#menu .nav-pills .show > .nav-link {
+  background-color: #dc9e9e;
+}
+
+#menu .nav-link:hover,
+#menu .nav-link:active {
+  background-color: #dc9e9e;
+}
+
+#menu h5 {
+  font-size: 1.1rem;
+}
+
+.form-control:focus {
+  border-color: rgb(220, 158, 158, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgb(210, 131, 130, 0.6);
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links li a {
+  text-decoration: none;
+  color: #d28382;
+}
+
+.social-links li a:hover {
+  color: #dc9e9e;
+}
+
+#contato button {
+  background-color: #d28382;
+  color: #faf1f1;
+}

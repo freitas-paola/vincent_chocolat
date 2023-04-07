@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vincent Chocolat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="header sticky-top" id="header">
+      <div class="container">
+        <div class="navbar navbar-expand-lg">
+          <h1 class="navbar-brand m-0 section-title">Vincent Chocolat</h1>
+          <button
+            type="button"
+            class="navbar-toggler collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu-principal"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav
+            id="menu-principal"
+            class="navbar-collapse collapse justify-content-end"
+          >
+            <ul class="nav nav-pills navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#nossa-historia">
+                  <i class="bi bi-book me-1"></i>
+                  Nossa história</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#encomendas">Encomendas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Fale Conosco</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#header"
+      data-bs-smooth-scroll="true"
+    >
+      <section id="nossa-historia">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-indicators">
+            <button
+              class="active"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img
+                src="./imgs/carousel/Pic1.png"
+                alt="Bombons de chocolate"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="./imgs/carousel/Pic2.png"
+                alt="Caixa de bombons"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="./imgs/carousel/Pic3.png"
+                alt="Barra de chocolate com calda de chocolate"
+                class="d-block w-100"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  src="./imgs/Loja.avif"
+                  alt="mão segurando cacau"
+                  class="d-block w-100 rounded img-historia"
+                />
+              </div>
+              <div class="col-md-7 mt-4 mt-md-0">
+                <h2 class="section-title">Nossa História</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  maxime in fugit quibusdam et voluptatum ipsam dolor dolores?
+                  Quas eaque ab quos accusamus voluptates voluptatem aliquid
+                  eligendi excepturi quam rem.
+                </p>
+                <h3 class="section-title">Bean to Bar</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi tempora repellat debitis repellendus veniam
+                  veritatis quasi maiores, fugiat vel illo facere similique
+                  numquam vero distinctio quod explicabo! Maxime, architecto?
+                  Expedita.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="encomendas" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">Para todas as ocasiões</h2>
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <img
+                  src="./imgs/encomendas/Pic1.png"
+                  alt="Mesa de casamento com macarons"
+                  class="d-block w-100 rounded mb-2"
+                />
+                <h3 class="section-title fs-4 fw-bold">
+                  <i class="bi bi-calendar-heart me-1"></i>
+                  Para casamentos
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt quos vel placeat officia laboriosam praesentium
+                  debitis. Magnam omnis saepe iure labore excepturi ducimus ut,
+                  numquam, pariatur sint modi maxime ex?
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="./imgs/encomendas/Pic2.png"
+                  alt="Caixa de bombons"
+                  class="d-block w-100 rounded mb-2"
+                />
+                <h3 class="section-title fs-4 fw-bold">
+                  <i class="bi bi-gift me-1"></i>
+                  Para presentear
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Pariatur suscipit vel recusandae doloribus fuga, vero dolore
+                  rem, harum nesciunt maiores, ullam fugiat delectus! Illo
+                  incidunt ratione est repellat possimus exercitationem.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="./imgs/encomendas/Pic3.png"
+                  alt="Mesa de chá da tarde com doces e salgados"
+                  class="d-block w-100 rounded mb-2"
+                />
+                <h3 class="section-title fs-4 fw-bold">
+                  <i class="bi bi-cup-straw me-1"></i>
+                  Para eventos
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  sapiente esse id aperiam pariatur recusandae omnis ex
+                  similique saepe perferendis non quaerat hic minima repudiandae
+                  quae, voluptate explicabo dignissimos accusantium?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title mb-5">Menu</h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2 mb-4">
+              <nav class="nav nav-pills flex-column">
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#bombons"
+                  type="button"
+                  class="fw-bold text-start nav-link active"
+                >
+                  Bombons
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#barras"
+                  type="button"
+                  class="fw-bold text-start nav-link"
+                >
+                  Barras
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#macarons"
+                  type="button"
+                  class="fw-bold text-start nav-link"
+                >
+                  Macarons
+                </button>
+              </nav>
+            </aside>
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="bombons">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/bombons/Bombom1.png"
+                        alt="bombom de chocolate com recheio de café"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Chocolate com Café</h5>
+                      <p>
+                        Bombom de chocolate ao leite com recheio cremoso de café
+                        com chocolate 70%.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/bombons/Bombom2.png"
+                        alt="bombom de chocolate com maracujá"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Chocolate com Maracujá</h5>
+                      <p>
+                        Bombom de chocolate 50% com recheio azedinho de
+                        maracujá. Decoração feita com manteiga de cacau.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/bombons/Bombom3.png"
+                        alt="bombom de framboesa com especiarias"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">
+                        Chocolate com Framboesa e Especiarias
+                      </h5>
+                      <p>
+                        Bombom de chocolate 50% com recheio de geléia de
+                        framboesa com especiarias. Decoração feita com manteiga
+                        de cacau.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/bombons/Bombom4.png"
+                        alt="bombom de chocolate com limão siciliano"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">
+                        Chocolate com Limão Siciliano
+                      </h5>
+                      <p>
+                        Bombom de chocolate ao leite com recheio azedinho de
+                        limão siciliano. Decoração feita com manteiga de cacau.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/bombons/Bombom5.png"
+                        alt="bombom de chocolate amargo com avelã"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Chocolate com Avelã (70%)</h5>
+                      <p>
+                        Bombom de chocolate 70% com recheio cremoso de chocolate
+                        com avelã.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/bombons/Bombom6.png"
+                        alt="bombom de chocolate ao leite com avelã"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Chocolate com Avelã</h5>
+                      <p>
+                        Bombom de chocolate ao leite com recheio cremoso de
+                        pasta de avelã.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="barras">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/barras/Barra1.png"
+                        alt="barra de chocolate branco com amêndoas"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">
+                        Chocolate Branco com Amêndoas
+                      </h5>
+                      <p>
+                        Barra de chocolate branco com pedaços de amêndoas -
+                        200g.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/barras/Barra2.png"
+                        alt="barra de chocolate com frutas vermelhas"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">
+                        Chocolate 50% com Frutas Vermelhas
+                      </h5>
+                      <p>
+                        Barra de chocolate 50% com recheio de geléia de frutas
+                        vermelhas - 200g.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/barras/Barra3.png"
+                        alt="barra de chocolate com amêndoas"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Chocolate ao leite com Nuts</h5>
+                      <p>
+                        Barra de chocolate ao leite com pedaços de amêndoas,
+                        avelãs, macadâmias e nozes - 200g.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/barras/Barra4.png"
+                        alt="barra de chocolate com avelã"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">
+                        Chocolate ao leite com Avelãs
+                      </h5>
+                      <p>
+                        Barra de chocolate ao leite com avelãs inteiras - 200g.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/barras/Barra5.png"
+                        alt="barra de chocolate com menta"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Chocolate 70% com Menta</h5>
+                      <p>
+                        Barra de chocolate 70% com recheio cremoso de chocolate
+                        com menta - 200g.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/barras/Barra6.png"
+                        alt="barra de chocolate com especiarias"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">
+                        Chocolate 70% com Especiarias
+                      </h5>
+                      <p>
+                        Barra de chocolate 70% com recheio cremoso de chocolate
+                        com especiarias - 200g.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="macarons">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/macaron/Macaron1.png"
+                        alt="macarons de especiarias com chocolate"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Especiarias com Chocolate</h5>
+                      <p>
+                        Macaron com especiarias e recheio de ganache de
+                        chocolate 50%.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/macaron/Macaron2.png"
+                        alt="macaron de framboesa com chocolate"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Framboesa com Chocolate</h5>
+                      <p>
+                        Macaron de framboesa com recheio de ganache de chocolate
+                        50%.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/macaron/Macaron3.png"
+                        alt="macaron de lavanda com chocolate"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Lavanda com Chocolate</h5>
+                      <p>
+                        Macaron de lavanda com recheio de ganache de chocolate
+                        ao leite.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/macaron/Macaron4.png"
+                        alt="macaron de limão com chocolate"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Limão com Chocolate</h5>
+                      <p>
+                        Macaron de limão com recheio de ganache de chocolate
+                        70%.
+                      </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                      <img
+                        src="./imgs/menu/macaron/Macaron5.png"
+                        alt="macaron de chocolate"
+                        class="d-block w-100 rounded"
+                      />
+                      <h5 class="fw-bold mt-2">Chocolate 50%</h5>
+                      <p>
+                        Macaron de chocolate com recheio de ganache de chocolate
+                        50%.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-4">Fale Conosco</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-5 me-3">
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label fw-bold">Seu nome:</label>
+                  <input type="text" id="nome" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-bold"
+                    >Seu email:</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="tel" class="form-label fw-bold">
+                    Seu telefone (opcional):</label
+                  >
+                  <input type="tel" id="telelfone" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label for="mensagem" class="form-label fw-bold"
+                    >Sua mensagem:</label
+                  >
+                  <textarea id="mensagem" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn fw-bold">Enviar</button>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h3 class="section-title fs-4">Redes Sociais</h3>
+                <ul class="social-links">
+                  <li class="fs-4">
+                    <a href="#">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="fs-4 ms-2 me-2">
+                    <a href="#">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="fs-4">
+                    <a href="#">
+                      <i class="bi bi-whatsapp"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row mt-4">
+                <h3 class="section-title fs-4">Endereço</h3>
+                <p>Rue Vieille-du-Temple, 17 - Paris, Île-de-France</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
