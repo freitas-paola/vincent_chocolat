@@ -85,3 +85,9 @@ body {
   background-color: #d28382;
   color: #faf1f1;
 }
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
